@@ -13,6 +13,9 @@ keywords = ["pid"]
 categories = ["no-std", "embedded", "algorithms"]
 readme = "README.md"
 
+[features]
+dt = []
+
 [dependencies.num-traits]
 version = "0.2"
 default-features = false
